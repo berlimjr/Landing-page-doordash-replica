@@ -81,16 +81,17 @@ form {
     border-radius: 32px;
     border: none;
     padding-top: 15px;
-    padding-left: 7px;
+    padding-left: 40px;
     padding-bottom: 15px;  
     padding-right: 7px;
 }
 .inpder::placeholder{
     text-overflow: ellipsis ;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
+    border: none;
     text-align: center;
-    padding-right: 200px ;
+    padding-right: 300px ;
     font-weight: 700;
 }
 #localizar {
@@ -316,7 +317,8 @@ footer {
     text-decoration-line: none;
 }
 .link-footer:hover, .link-footer2:hover,
-.link-footer3:hover {
+.link-footer3:hover,
+.href-css:hover {
     color: white;
     text-decoration: underline;
     transition: 0.4s all;
